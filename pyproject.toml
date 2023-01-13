@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "simulasi-perhitungan-ratio-korupsi"
+version = "1.0.0"
+description = "A program to simulate the ratio of a corruptio in an instance"
+authors = ["Riichi Rusdiana <finnsonalca123@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simulasi_perhitungan_ratio_korupsi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
